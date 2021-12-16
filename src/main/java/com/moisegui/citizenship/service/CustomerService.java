@@ -8,4 +8,5 @@ import java.util.List;
 public interface CustomerService {
     Customer findByROwKey(String rowKey) throws IOException;
     List<Customer> findAll() throws IOException;
+
 }
